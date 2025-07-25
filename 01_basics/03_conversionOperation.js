@@ -11,3 +11,4 @@ let isLoggedIn = 5255
 let booleanIsLoogedIn = Boolean(isLoggedIn)
 
 console.log(booleanIsLoogedIn);
+
