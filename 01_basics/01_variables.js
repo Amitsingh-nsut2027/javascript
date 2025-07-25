@@ -10,4 +10,12 @@ accountCity = "bengluru"
 
 console.log(accountId);
 
+
+
+/* 
+    only use let insted of var 
+    becsue of issue in block scope or functional scope
+    
+*/
+
 console.table([accountId , accountEmail , accountPassword, accountCity])
