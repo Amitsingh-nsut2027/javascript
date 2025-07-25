@@ -11,3 +11,4 @@ let age = 21
 let isLoggedIn = false 
 
 
+console.log(typeof "hitesh")
