@@ -11,18 +11,32 @@
 // Refrence (Non-primitive)-
 // Array , objects , Functions
 
-const heros = ["shaktiman" , "naagraj" , "doga"]
+// const heros = ["shaktiman" , "naagraj" , "doga"]
 
-let myObj = {
-    name: "hitesh",
-    age: 22,
-}
+// let myObj = {
+//     name: "hitesh",
+//     age: 22,
+// }
 
-const myFunction = function() {
-    console.log("Hello ! Amit ");
+// const myFunction = function() {
+//     console.log("Hello ! Amit ");
     
-}
+// }
 
-console.log(typeof myFunction);
-console.log(typeof myObj);
-console.log(typeof heros);
+// console.log(typeof myFunction);
+// console.log(typeof myObj);
+// console.log(typeof heros);
+
+
+//    ++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+// Stack (Primitive ) , Heap (Non-primitive)
+
+let myYoutubeName = "Amit Singh"
+ let anotherName = myYoutubeName
+ anotherName = "Bhati"
+
+ console.log(anotherName);
+ console.log(myYoutubeName);
+ 
+ 
