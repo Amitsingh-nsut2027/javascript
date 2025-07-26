@@ -6,9 +6,22 @@
 // console.log(typeof valueInNumber);
 // console.log(valueInNumber);
 
-let isLoggedIn = 5255
+// let isLoggedIn = 5255
 
-let booleanIsLoogedIn = Boolean(isLoggedIn)
+// let booleanIsLoogedIn = Boolean(isLoggedIn)
 
-console.log(booleanIsLoogedIn);
+// console.log(booleanIsLoogedIn);
+
+// let str1 = "Amit "
+// let str2 = "Singh"
+// let str3 = str1 + str2
+// console.log(str3);
+
+// console.log(1 + "2" + 3);
+// console.log(1 + 2 + "3");
+// console.log(1 + "2" + "3");
+
+console.log(true);
+console.log(+true);
+
 
