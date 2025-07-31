@@ -6,5 +6,8 @@ const objUser = {
     location: "Delhi",
     email: "As8840677@gmail.com",
     isLoggedIn: false,
-    lastLoginDays: ["Monday", "Saturday"]
+    lastLoginDays: ["Monday", "Saturday"],
+    // console.log(name),
 }
+console.log(objUser.name)
+console.log(objUser.age)
