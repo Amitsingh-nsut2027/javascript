@@ -17,7 +17,7 @@ const regularUser = {
     }
 }
  
-console.log(regularUser.fullName.userfullNmae.firstName);
+// console.log(regularUser.fullName.userfullNmae.firstName);
 
 const obj1 = { 1: "a", 2: "b"}
 const obj2 = {3: "c", 4: "d"}
@@ -44,9 +44,29 @@ const users = [
 users[1].email
 // console.log(tinderUser);
 
-console.log(Object.keys(tinderUser));
-console.log(Object.values(tinderUser));
-console.log(Object.entries(tinderUser));
+// console.log(Object.keys(tinderUser));
+// console.log(Object.values(tinderUser));
+// console.log(Object.entries(tinderUser));
 
-console.log(tinderUser.hasOwnProperty('isLoggedIn'));
+// console.log(tinderUser.hasOwnProperty('isLoggedIn'));
+
+
+
+const course = {
+    coursename: "js course ",
+    price : "5000",
+    courseInstrustor: "Hites sir"
+}
+
+const {courseInstrustor: instructor} = course
+// console.log(courseInstrustor);
+
+// console.log(instructor);
+
+// {
+//     "name": "AMit singh",
+//     "coursename": "js in English",
+//     price: "free"
+
+// }
 
