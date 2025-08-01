@@ -1,0 +1,31 @@
+// function sayMyName(){
+//     console.log("hii");
+
+const res = require("express/lib/response");
+
+    
+// }
+
+// sayMyName()
+
+function addTwoNumbers(num1, num2){
+
+        // console.log(num1 + num2);
+        return num1+num2
+}
+const result = addTwoNumbers(3,4)
+
+// console.log("result: " ,result);
+
+
+function loginUserMessage (username){
+
+    if (username === undefined) {
+        console.log("please enter your usernmae");
+        return
+    }
+    return `${username} just logged in` 
+}
+
+// loginUserMessage("Amit singh")
+console.log(loginUserMessage());
