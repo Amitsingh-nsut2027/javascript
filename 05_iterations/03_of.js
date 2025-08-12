@@ -17,15 +17,15 @@
 
 // Maps
 
-const map = new Map()
-map.set('IN', 'India')
-map.set('Fr', 'france')
-map.set('Ru', 'russia')
+// const map = new Map()
+// map.set('IN', 'India')
+// map.set('Fr', 'france')
+// map.set('Ru', 'russia')
 
-// console.log(map);
+// // console.log(map);
 
-for (const [key, value] of map) {
-    console.log(key ,':-', value);
+// for (const [key, value] of map) {
+//     console.log(key ,':-', value);
     
     
-}
+// }
