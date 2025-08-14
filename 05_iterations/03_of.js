@@ -8,12 +8,12 @@
     
 // // }
 
-// const greetings = "Hello World !"
+const greetings = "Hello World !"
 
-// for(const greet of greetings){
-//     console.log(`Each char is ${greet}`);
+for(const greet of greetings){
+    console.log(`Each char is ${greet}`);
     
-// }
+}
 
 // Maps
 
